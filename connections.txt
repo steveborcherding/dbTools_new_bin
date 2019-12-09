@@ -1,0 +1,155 @@
+-------------------------------------------------------------------------------
+-- BIDW pre-defined connection strings
+-------------------------------------------------------------------------------
+
+----------------------------------------
+-- LANDING
+----------------------------------------
+SQLSERVER:;Data Source=VMPSQLDWLNDP04\Demo1;Initial Catalog=DW_Landing_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWLNDM04\Demo1;Initial Catalog=DW_Landing_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWLNDD04\Dvlp1;Initial Catalog=DW_Landing_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWLNDD04\Dvlp1;Initial Catalog=DW_Landing_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+----------------------------------------
+-- STAGING
+----------------------------------------
+SQLSERVER:;Data Source=VMPSQLDWEDWP01\Prod1;Initial Catalog=CMG_ETL_Staging_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWM01\Demo1;Initial Catalog=CMG_ETL_Staging_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_ETL_Staging_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_ETL_Staging_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWEDWP01\Prod1;Initial Catalog=CMG_ETL_Staging_CMKT_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWM01\Demo1;Initial Catalog=CMG_ETL_Staging_CMKT_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_ETL_Staging_CMKT_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_ETL_Staging_CMKT_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWEDWP01\Prod1;Initial Catalog=CMG_EDW_CertSSH_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWM01\Demo1;Initial Catalog=CMG_EDW_CertSSH_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_EDW_CertSSH_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_EDW_CertSSH_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+----------------------------------------
+-- ABC
+----------------------------------------
+SQLSERVER:;Data Source=VMPSQLDWEDWP01\Prod1;Initial Catalog=ETL_ABC_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWM01\Demo1;Initial Catalog=ETL_ABC_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=ETL_ABC_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+----------------------------------------
+-- EDW
+----------------------------------------
+SQLSERVER:;Data Source=VMPSQLDWEDWP01\Prod1;Initial Catalog=CMG_EDW_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWM01\Demo1;Initial Catalog=CMG_EDW_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_EDW_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWEDWD04\Dvlp1;Initial Catalog=CMG_EDW_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+----------------------------------------
+-- ODS
+----------------------------------------
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_ODS_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_ODS_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_ODS_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_ODS_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+----------------------------------------
+-- DATAMART
+----------------------------------------
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Consumer_Mgmt_Datamart_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Consumer_Mgmt_Datamart_Prod2;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Consumer_Mgmt_Datamart_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Consumer_Mgmt_Datamart_Demo2;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Consumer_Mgmt_Datamart_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Consumer_Mgmt_Datamart_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Contact_Center_Datamart_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Contact_Center_Datamart_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Contact_Center_Datamart_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Contact_Center_Datamart_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Corp_Conformed_Datamart_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Corp_Conformed_Datamart_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Corp_Conformed_Datamart_ProdCopy_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Corp_Conformed_Datamart_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Corp_Conformed_Datamart_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Distribution_Datamart_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Distribution_Datamart_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Distribution_Datamart_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Distribution_Datamart_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Lending_Datamart_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Lending_Datamart_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Lending_Datamart_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Lending_Datamart_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=Product_Mgmt_Datamart_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=Product_Mgmt_Datamart_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Product_Mgmt_Datamart_UAT;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=Product_Mgmt_Datamart_Dvlp;Integrated Security=SSPI;Persist Security Info=False
+
+----------------------------------------
+-- SANDBOX
+----------------------------------------
+
+-- conformed sandbox
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+-- secured sandbox
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_PilotSec_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_PilotSec_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_PilotSec_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+-- enumerated sandboxes
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot01_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot01_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot01_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot02_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot02_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot02_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot03_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot03_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot03_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot04_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot04_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot04_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot05_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot05_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot05_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot06_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot06_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot06_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot07_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot07_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot07_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot08_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot08_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot08_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot09_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot09_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot09_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot10_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot10_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot10_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot11_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot11_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot11_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+SQLSERVER:;Data Source=VMPSQLDWMRTP04\Prod1;Initial Catalog=CMG_Pilot12_SBX_Prod;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTM01\Demo1;Initial Catalog=CMG_Pilot12_SBX_Demo;Integrated Security=SSPI;Persist Security Info=False
+SQLSERVER:;Data Source=VABSQLDWMRTD04\Dvlp1;Initial Catalog=CMG_Pilot12_SBX;Integrated Security=SSPI;Persist Security Info=False
+
+-------------------------------------------------------------------------------
+-- end of file
+-------------------------------------------------------------------------------
